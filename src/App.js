@@ -21,7 +21,7 @@ function App() {
     <Router>
       <Nav mode={mode} Changemode={setmode}></Nav>
       <Routes>
-        <Route exact path="/" element={<Form  mode={mode}/>}  />
+        <Route exact path="/React-application" element={<Form  mode={mode}/>}  />
         <Route exact path="/About" element={<About  mode={mode}/>} />
       </Routes>
     </Router>
