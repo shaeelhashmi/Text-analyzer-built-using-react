@@ -28,7 +28,7 @@ export default function Nav(props) {
                 <Link
                   className="nav-link active"
                   aria-current="page"
-                  to="/"
+                  to="/React-application"
                 >
                   Home
                 </Link>
