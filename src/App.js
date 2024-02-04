@@ -2,7 +2,6 @@ import "./App.css";
 import Form from "./components/formtext";
 import Nav from "./components/navbar";
 import React, { useState } from "react";
-import About from "./components/About";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -22,7 +21,6 @@ function App() {
       <Nav mode={mode} Changemode={setmode}></Nav>
       <Routes>
         <Route exact path="/" element={<Form  mode={mode}/>}  />
-        <Route exact path="/React-application/About" element={<About  mode={mode}/>} />
       </Routes>
     </Router>
   );

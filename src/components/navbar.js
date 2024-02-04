@@ -33,11 +33,6 @@ export default function Nav(props) {
                   Home
                 </Link>
               </li>
-              <li className="nav-item mx-1">
-                <Link className="nav-link" to="/React-application/About">
-                  About
-                </Link>
-              </li>
             </ul>
             <div
               className={`form-check form-switch text-${
