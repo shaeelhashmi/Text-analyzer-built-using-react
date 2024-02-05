@@ -38,7 +38,7 @@ export default function Form(props) {
     }
     setwords(
       `Total numbers in your text are ${words}, total number of uppercase letters are ${upperCaseletters}, \n total number of lowercase letters are ${lowerCaseletters}, total number of special chracters ${specialchracters}, total number of empty space ${emptyspaces} and total words in your text are ${
-        summary.split(" ").filter((Element)=>{return Element.length!==0}).length
+        summary.split(/\s+/).filter((Element)=>{return Element.length!==0}).length
       }`
     );
   }
