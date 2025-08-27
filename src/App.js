@@ -17,7 +17,7 @@ function App() {
     }
   };
   return (
-    <Router basename="/React-application">
+    <Router basename="/Text-analyzer-built-using-react">
       <Nav mode={mode} Changemode={setmode}></Nav>
       <Routes>
         <Route exact path="/" element={<Form  mode={mode}/>}  />
